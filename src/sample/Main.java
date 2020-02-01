@@ -16,6 +16,7 @@ public class Main extends Application {
         HBox hotBar = FXMLLoader.load(getClass().getResource("hotBar.fxml"));
         VBox menu = FXMLLoader.load(getClass().getResource("menu.fxml"));
         root.getChildren().addAll(menu, hotBar);
+        /*root.getChildren().addAll(hotBar,menu);*/
 
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
